@@ -100,10 +100,10 @@ class WOOPR_Admin extends WOOPR_Core
 
         wp_add_inline_style('woopr-main', '
             .woopr-body * {
-                font-family: "' . $this->default_font(null) . '", tahoma, sans-serif, arial;
+                font-family: ' . $this->default_font(null) . ', tahoma, sans-serif, arial;
             }
             .datepicker-plot-area {
-                font: 12px "' . $this->default_font(null) . '", tahoma, sans-serif, arial;
+                font: 12px ' . $this->default_font(null) . ', tahoma, sans-serif, arial;
             }
         ');
 
