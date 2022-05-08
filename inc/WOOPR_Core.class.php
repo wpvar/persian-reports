@@ -65,14 +65,27 @@ class WOOPR_Core
     }
 
     /**
-     * Check privileges
+     * Is plugin page
      *
      * @return boolean
      */
     protected function is_plugin_page()
     {
         $page = !empty($_GET['page']) ? sanitize_key($_GET['page']) : null;
-        $check = (current_user_can('view_woocommerce_reports') && !empty($page) && $page == 'woopr-admin') ? true : false;
+        $check = (!empty($page) && $page == 'woopr-admin') ? true : false;
+
+        return $check;
+    }
+
+    /**
+     * Check privileges
+     *
+     * @return boolean
+     */
+    protected function has_access()
+    {
+        $page = !empty($_GET['page']) ? sanitize_key($_GET['page']) : null;
+        $check = current_user_can('view_woocommerce_reports') ? true : false;
 
         return $check;
     }

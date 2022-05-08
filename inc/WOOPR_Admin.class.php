@@ -61,18 +61,13 @@ class WOOPR_Admin extends WOOPR_Core
      */
     public function main_template()
     {
-        if (!current_user_can('view_woocommerce_reports')) {
-            return;
-        }
-
-        
         do_action('woopr_alert');
 
         if (!$this->requirements(true)) {
             return;
         }
 
-        if(!parent::is_plugin_page()) {
+        if(!parent::has_access()) {
             echo '<p class="woopr-alert_warning">';
             echo esc_attr__('اجازه دسترسی به این صفحه را ندارید. لطفا با مدیریت تماس بگیرید.', 'woopr');
             echo '</p>';
@@ -126,7 +121,7 @@ class WOOPR_Admin extends WOOPR_Core
             return;
         }
 
-        if(!parent::is_plugin_page()) {
+        if(!parent::is_plugin_page() || !parent::has_access()) {
             return;
         }
 
