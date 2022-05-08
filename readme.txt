@@ -1,4 +1,18 @@
-# گزارش فارسی ووکامرس
+=== WooCommerce Persian Reports ===
+Contributors: wpvar, farajiali
+Tags: farsi, woocommerce, shamsi, jalali, iran, persian, date, شمسی, تاریخ, فارسی, پارسی, ایران
+Donate link: https://wpvar.com/
+Requires at least: 5.0
+Tested up to: 5.9
+Requires PHP: 5.5
+Stable tag: 1.0.0
+License: GNU Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+گزارش و آمار پیشرفته فروشگاه ووکامرس به فارسی و تاریخ شمسی ★★★★★
+== Description ==
+**گزارش‌های پیشرفته فروشگاه ووکامرس به فارسی**
+★★★★★
 
 ارائه گزارش‌های پیشرفته ووکامرس به زبان فارسی و تاریخ شمسی (جلالی) به صورت نموداری و متنی
 **فروشگاه خود را بهتر مدیریت کنید**
@@ -40,7 +54,7 @@ WooCommerce persian reports generates sales reports in Shamsi, aka Jalali or Ira
 
 [Github page](https://github.com/wpvar/woocommerce-persian-reports)
 
-## نصب
+== Installation ==
 
 نصب خودکار:
 برای نصب خودکار بدون دانلود کردن از داشبورد وردپرس به قسمت افزونه ها رفته و روی افزودن کلیک کنید. در باکس جستجو عبارت "گزارش فارسی ووکامرس" را وارد کنید و افزونه را نصب و فعال کنید
@@ -50,6 +64,10 @@ WooCommerce persian reports generates sales reports in Shamsi, aka Jalali or Ira
 
 بعد از فعال سازی افزونه همه تنظیمات به صورت خودکار اعمال خواهد شد.
 
-## تغییرات
-1.0.0
+
+== Screenshots ==
+1. صفحه گزارش‌ها
+
+== Changelog ==
+= 1.0.0 =
 * انتشار افزونه
