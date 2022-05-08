@@ -1,4 +1,4 @@
-=== WooCommerce Persian Reports ===
+=== Persian Reports ===
 Contributors: wpvar, farajiali
 Tags: farsi, woocommerce, shamsi, jalali, iran, persian, date, شمسی, تاریخ, فارسی, پارسی, ایران
 Donate link: https://wpvar.com/
@@ -17,7 +17,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 ارائه گزارش‌های پیشرفته ووکامرس به زبان فارسی و تاریخ شمسی (جلالی) به صورت نموداری و متنی
 **فروشگاه خود را بهتر مدیریت کنید**
 
-WooCommerce persian reports generates sales reports in Shamsi, aka Jalali or Iranian calendar.
+Persian reports generates WooCommerce sales reports in Shamsi, aka Jalali or Iranian calendar.
 
 ## امکانات
 

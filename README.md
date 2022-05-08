@@ -3,7 +3,7 @@
 ارائه گزارش‌های پیشرفته ووکامرس به زبان فارسی و تاریخ شمسی (جلالی) به صورت نموداری و متنی
 **فروشگاه خود را بهتر مدیریت کنید**
 
-WooCommerce persian reports generates sales reports in Shamsi, aka Jalali or Iranian calendar.
+Persian Reports generates WooCommerce sales reports in Shamsi, aka Jalali or Iranian calendar.
 
 ## امکانات
 

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Plugin Name:       WooCommerce Persian Reports
+ * Plugin Name:       Persian Reports
  * Plugin URI:        https://wpvar.com/woocommerce-persian-reports
- * Description:       WooCommerce persian reports generates sales reports in Shamsi, aka Jalali or Iranian calendar.
+ * Description:       Persian Reports generates WooCommerce sales reports in Shamsi, aka Jalali or Iranian calendar.
  * Version:           1.0.0
  * Requires at least: 5.0
  * Requires PHP:      5.5
@@ -23,5 +23,5 @@ define('WOOPR_BASE', plugin_basename(__FILE__));
 define('WOOPR_FILE', __FILE__);
 define('WOOPR_VERSION', '1.0.0');
 
-/* Setting up WOO PERSIAN REPORTS */
+/* Setting up PERSIAN REPORTS */
 require_once 'inc/autoload.php';
