@@ -46,7 +46,7 @@ class WOOPR_Admin extends WOOPR_Core
         add_menu_page(
             esc_attr__('گزارش فارسی و شمسی ووکامرس', 'woopr'),
             esc_attr__('گزارش فارسی', 'woopr'),
-            'view_woocommerce_reports',
+            'read_private_pages',
             'woopr-admin',
             array($this, 'main_template'),
             $icon
@@ -69,6 +69,13 @@ class WOOPR_Admin extends WOOPR_Core
         do_action('woopr_alert');
 
         if (!$this->requirements(true)) {
+            return;
+        }
+
+        if(!parent::is_plugin_page()) {
+            echo '<p class="woopr-alert_warning">';
+            echo esc_attr__('اجازه دسترسی به این صفحه را ندارید. لطفا با مدیریت تماس بگیرید.', 'woopr');
+            echo '</p>';
             return;
         }
 
@@ -116,6 +123,10 @@ class WOOPR_Admin extends WOOPR_Core
         ');
 
         if (!$this->requirements(true)) {
+            return;
+        }
+
+        if(!parent::is_plugin_page()) {
             return;
         }
 
