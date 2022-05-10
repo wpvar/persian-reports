@@ -1,6 +1,6 @@
 <div id="wooprChartsBody">
     <div class="woopr-loading">
-        <p><?php echo esc_attr__('لطفا صبر کنید', 'woopr') ?></p>
+        <p><?php echo esc_attr__('لطفا صبر کنید', 'persian-reports') ?></p>
     </div>
     <div id="wooprChartsSection">
         <?php do_action('woopr_temp_chart_before'); ?>

@@ -52,7 +52,7 @@ Persian reports generates WooCommerce sales reports in Shamsi, aka Jalali or Ira
 ## مشارکت در توسعه
 اگر مایل به مشارکت در توسعه و برنامه نویسی این افزونه هستید از طریق مخزن گیتاب زیر کد های خود را ثبت کنید:
 
-[Github page](https://github.com/wpvar/woocommerce-persian-reports)
+[Github page](https://github.com/wpvar/persian-reports)
 
 == Installation ==
 

@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name:       Persian Reports
- * Plugin URI:        https://wpvar.com/woocommerce-persian-reports
+ * Plugin URI:        https://wpvar.com/persian-reports
  * Description:       Persian Reports generates WooCommerce sales reports in Shamsi, aka Jalali or Iranian calendar.
  * Version:           1.0.0
  * Requires at least: 5.0
@@ -11,7 +11,7 @@
  * Author URI:        https://wpvar.com/
  * License:           GNU Public License v3.0
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
- * Text Domain:       woopr
+ * Text Domain:       persian-reports
  * @package WOOPR
  */
 
