@@ -130,11 +130,13 @@ class WOOPR_Admin extends WOOPR_Core
         wp_enqueue_script('woopr-chart', WOOPR_URL . 'assets/js/charts/chart.min.js', array(), WOOPR_VERSION, true);
         wp_enqueue_script('woopr-main', WOOPR_URL . 'assets/js/core/main.min.js', array(), WOOPR_VERSION, true);
 
+        $currency = get_woocommerce_currency_symbol();
+
         $scripts = array(
             'root' => esc_url_raw(rest_url()),
             'nonce' => wp_create_nonce('wp_rest'),
             'ajaxurl' => admin_url('admin-ajax.php'),
-            'currency'  =>  get_woocommerce_currency_symbol()
+            'currency'  =>  $currency
         );
 
         wp_localize_script('woopr-main', 'wooprApi', apply_filters('woopr_local_scripts', $scripts));

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Plugin Name:       Persian Reports
+ * Plugin Name:       گزارش فارسی ووکامرس
  * Plugin URI:        https://wpvar.com/persian-reports
- * Description:       Persian Reports generates WooCommerce sales reports in Shamsi, aka Jalali or Iranian calendar.
+ * Description:       ارائه گزارش‌های پیشرفته ووکامرس به زبان فارسی و تاریخ شمسی (جلالی) به صورت نموداری و متنی.
  * Version:           1.0.0
  * Requires at least: 5.0
  * Requires PHP:      5.5
