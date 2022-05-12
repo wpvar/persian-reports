@@ -293,7 +293,7 @@ class WOOPR_Admin extends WOOPR_Core
     {
         echo '<div class="woopr-alert_'  . esc_attr($type) . '">';
         echo '<p>';
-        echo esc_html($msg);
+        echo wp_kses_post($msg);
         echo '</p>';
         echo '</div>';
     }

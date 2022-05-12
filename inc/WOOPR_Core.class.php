@@ -84,7 +84,6 @@ class WOOPR_Core
      */
     protected function has_access()
     {
-        $page = !empty($_GET['page']) ? sanitize_key($_GET['page']) : null;
         $check = current_user_can('view_woocommerce_reports') ? true : false;
 
         return $check;
