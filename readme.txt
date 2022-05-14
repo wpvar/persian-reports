@@ -5,7 +5,7 @@ Donate link: https://wpvar.com/
 Requires at least: 5.0
 Tested up to: 6.0
 Requires PHP: 5.5
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -23,6 +23,7 @@ Persian Reports generates WooCommerce sales reports in Shamsi, aka Jalali or Ira
 
 * هفت نمودار گزارش به صورت بصری
 * انتخاب بازه زمانی با تاریخ شمسی
+* انتخاب بازه زمانی با تاریخ میلادی
 * امکان انتخاب بازه‌های زمانی پیش‌فرض
 * گزارش فروش کل
 * گزارش فروش خالص
@@ -69,5 +70,8 @@ Persian Reports generates WooCommerce sales reports in Shamsi, aka Jalali or Ira
 1. صفحه گزارش‌ها
 
 == Changelog ==
+= 1.0.1 =
+* رفع باگ: اصلاح لینک افزونه‌های مورد نیاز
+
 = 1.0.0 =
 * انتشار افزونه
