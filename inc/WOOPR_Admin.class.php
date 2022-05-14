@@ -307,8 +307,7 @@ class WOOPR_Admin extends WOOPR_Core
      */
     public function default_font($scripts)
     {
-        $font = get_option('wpsh')['dashboard-font-default'];
-        $font = !empty($font) ? $font : 'IRANSansWeb, tahoma';
+        $font = !empty(get_option('wpsh')['dashboard-font-default']) ? get_option('wpsh')['dashboard-font-default'] : 'IRANSansWeb, tahoma';
 
         if ($font == 'none') {
             $font = 'tahoma';
