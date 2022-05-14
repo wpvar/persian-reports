@@ -9,6 +9,7 @@ Persian Reports generates WooCommerce sales reports in Shamsi, aka Jalali or Ira
 
 * هفت نمودار گزارش به صورت بصری
 * انتخاب بازه زمانی با تاریخ شمسی
+* انتخاب بازه زمانی با تاریخ میلادی
 * امکان انتخاب بازه‌های زمانی پیش‌فرض
 * گزارش فروش کل
 * گزارش فروش خالص
@@ -51,5 +52,8 @@ Persian Reports generates WooCommerce sales reports in Shamsi, aka Jalali or Ira
 بعد از فعال سازی افزونه همه تنظیمات به صورت خودکار اعمال خواهد شد.
 
 ## تغییرات
+1.0.1
+* رفع باگ: اصلاح لینک افزونه‌های مورد نیاز
+
 1.0.0
 * انتشار افزونه
